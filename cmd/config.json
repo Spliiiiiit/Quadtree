@@ -1,0 +1,32 @@
+{
+    "DebugMode": false,
+    "NumTileX": 10,
+    "NumTileY": 10,
+    "Padding": 1,
+    "TileSize": 16,
+    "NumCharacterAnimImages": 4,
+    "NumFramePerCharacterAnimImage": 5,
+    "NumTileForDebug": 6,
+    "CameraMode": 2,
+    "FloorKind": 2,
+    "FloorFile": "../floor-files/validation",
+    "WaterWalk": false,
+    "RandomMap": {
+        "Enabled": true,
+        "Width": 15,
+        "Height": 15,
+        "BlockProbability": [30, 20, 20, 20, 10]
+    },
+    "InfiniteMap": true,
+    "SaveMap": true,
+    "AnimatedWater": {
+        "Enabled": true,
+        "NumAnimImages": 3,
+        "NumFramePerAnimImage": 15
+    },
+    "Teleporter": {
+        "Enabled": true,
+        "NumAnimImages": 7,
+        "NumFramePerAnimImage": 10
+    }
+}
